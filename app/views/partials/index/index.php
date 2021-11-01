@@ -9,17 +9,22 @@
                         <div class="">
                             <div class="fadeIn animated mb-4">
                                 <div class="text-capitalize">
-                                    <h2 class="text-capitalize">Welcome To <?php echo SITE_NAME ?></h2>
+                                    <b><u><h2 class="text-capitalize">WELCOME TO <?php echo SITE_NAME ?></h2></u></b>
                                 </div>
                             </div>
                         </div>
                     </div>
+                <div>
+                    
+                    <a type="button" class="btn btn-default" href="USERS/index.html">USER LOGIN</a>
+                    
+                </div>
                     <div class="col-md-4 comp-grid">
                         <?php $this :: display_page_errors(); ?>
                         
                         <div  class="bg-light p-3 animated fadeIn page-content">
                             <div>
-                                <h4><i class="fa fa-key"></i> User Login</h4>
+                                <h4><i class="fa fa-key"></i> Admin Login</h4>
                                 <hr />
                                 <?php 
                                 $this :: display_page_errors(); 
